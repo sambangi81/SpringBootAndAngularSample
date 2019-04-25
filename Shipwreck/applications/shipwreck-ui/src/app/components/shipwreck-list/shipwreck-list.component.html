@@ -1,0 +1,36 @@
+<div class="container">
+  <table class="table table-bordered table-inverse">
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Condition</th>
+      <th>Depth</th>
+      <th>Location</th>
+    <th>Year Discoverd</th>
+
+    </tr>
+    <tr *ngFor="let shipwreck of shipwrecks">
+      <td>
+        <a [routerLink]="['/shipwreck/view', shipwreck.id]"> {{shipwreck.name}}</a>
+      </td>
+    <!--  <td>
+       {{shipwreck.name}}
+    </td>-->
+      <td>
+        {{shipwreck.description}}
+      </td>
+      <td>
+        {{shipwreck.condition}}
+      </td>
+      <td class="text-right">
+        {{shipwreck.depth}}
+      </td>
+      <td class="text-right">
+        {{shipwreck.latitude}}, {{shipwreck.longitude}}
+      </td>
+      <td class="text-right">
+        {{shipwreck.yearDiscovered}}
+      </td>
+    </tr>
+  </table>
+</div>
