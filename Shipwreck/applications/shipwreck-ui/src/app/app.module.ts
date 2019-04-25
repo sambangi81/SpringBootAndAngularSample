@@ -1,23 +1,27 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import {ShipwreckService} from './services/shipwreck.service';
 import { ShipwreckListComponent } from './components/shipwreck-list/shipwreck-list.component';
+import { ShipwreckCreateComponent } from './components/shipwreck-create/shipwreck-create.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShipwreckListComponent
+    ShipwreckListComponent,
+    ShipwreckCreateComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [ShipwreckService],
   bootstrap: [AppComponent]

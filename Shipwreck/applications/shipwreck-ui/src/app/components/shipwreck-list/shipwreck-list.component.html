@@ -10,12 +10,12 @@
 
     </tr>
     <tr *ngFor="let shipwreck of shipwrecks">
-      <td>
+     <!-- <td>
         <a [routerLink]="['/shipwreck/view', shipwreck.id]"> {{shipwreck.name}}</a>
-      </td>
-    <!--  <td>
+      </td>-->
+      <td>
        {{shipwreck.name}}
-    </td>-->
+    </td>
       <td>
         {{shipwreck.description}}
       </td>
@@ -30,6 +30,9 @@
       </td>
       <td class="text-right">
         {{shipwreck.yearDiscovered}}
+      </td>
+      <td>
+        <a class="btn"  ng-click="deleteShipwreck(shipwreck.id)">Delete</a>
       </td>
     </tr>
   </table>

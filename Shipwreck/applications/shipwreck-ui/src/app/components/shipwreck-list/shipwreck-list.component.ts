@@ -22,4 +22,9 @@ export class ShipwreckListComponent implements OnInit {
       () => console.log('shipwrecks loaded')
     );
   }
+
+  deleteShipwreck(id: number) {
+    this.shipwreckServive.deleteShipwreck(id);
+  }
+
 }
