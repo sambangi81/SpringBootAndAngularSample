@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ShipwreckService} from '../../services/shipwreck.service';
+import {error} from 'util';
 
 @Component({
   selector: 'app-shipwreck-list',
@@ -24,7 +25,10 @@ export class ShipwreckListComponent implements OnInit {
   }
 
   deleteShipwreck(id: number) {
-    this.shipwreckServive.deleteShipwreck(id);
+    this.shipwreckServive.deleteShipwreck(id).subscribe(
+      err => console.error(err),
+      () => console.log('Shipwrecl deleted')
+    );
   }
 
 }

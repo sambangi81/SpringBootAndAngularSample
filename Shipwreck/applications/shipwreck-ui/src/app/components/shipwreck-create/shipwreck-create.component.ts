@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ShipwreckService} from '../../services/shipwreck.service';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { Observable } from 'rxjs/observable';
+import {Observable} from 'rxjs/Observable';
 
 @Component({
   selector: 'app-shipwreck-create',

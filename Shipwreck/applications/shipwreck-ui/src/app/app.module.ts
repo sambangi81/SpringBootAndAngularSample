@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import {ShipwreckService} from './services/shipwreck.service';
 import { ShipwreckListComponent } from './components/shipwreck-list/shipwreck-list.component';
 import { ShipwreckCreateComponent } from './components/shipwreck-create/shipwreck-create.component';
+import { ShipwreckViewComponent } from './components/shipwreck-view/shipwreck-view.component';
 
 
 
@@ -15,7 +16,8 @@ import { ShipwreckCreateComponent } from './components/shipwreck-create/shipwrec
   declarations: [
     AppComponent,
     ShipwreckListComponent,
-    ShipwreckCreateComponent
+    ShipwreckCreateComponent,
+    ShipwreckViewComponent
   ],
   imports: [
     BrowserModule,
