@@ -3,6 +3,11 @@
     <a class="btn btn=primary" routerLink="/shipwreck-list">Back to List</a>
   </div>
   <form [formGroup]="shipwreckform" (ngSubmit)="submitShipwreck()" novalidate>
+    <!--<div ng-include="'view.html'"></div>-->
+    <!--<div *ngIf="validMessage != ''">
+      <h3 class="has-info">{{validMessage}}</h3>
+    </div>
+    <app-shipwreck-create-edit></app-shipwreck-create-edit>-->
     <div *ngIf="validMessage != ''">
       <h3 class="has-info">{{validMessage}}</h3>
     </div>
@@ -40,7 +45,6 @@
       <label>Longitude</label>
       <input type="text" class="form-control" formControlName="longitude" required/>
     </div>
-
     <button type="submit" class="btn btn-primary" >Submit</button>
   </form>
 </div>

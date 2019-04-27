@@ -4,6 +4,7 @@ import {ShipwreckListComponent} from './components/shipwreck-list/shipwreck-list
 import {ShipwreckCreateComponent} from './components/shipwreck-create/shipwreck-create.component';
 import {ShipwreckViewComponent} from './components/shipwreck-view/shipwreck-view.component';
 import {AppComponent} from './app.component';
+import {ShipwreckEditComponent} from './components/shipwreck-edit/shipwreck-edit.component';
 const routes: Routes = [
   {
     path: '',
@@ -12,6 +13,14 @@ const routes: Routes = [
   {
     path: 'shipwreck-list/shipwreck-create',
     component: ShipwreckCreateComponent
+  },
+  {
+    path: 'shipwreck-list/shipwreck-edit',
+    component: ShipwreckEditComponent
+  },
+  {
+    path: 'shipwreck-edit',
+    component: ShipwreckEditComponent
   },
   {
     path: 'shipwreck-create',
@@ -24,6 +33,10 @@ const routes: Routes = [
   {
     path: 'shipwreck-list/shipwreck-view/:id',
     component: ShipwreckViewComponent
+  },
+  {
+    path: 'shipwreck-list/shipwreck-edit/:id',
+    component: ShipwreckEditComponent
   }
 ];
 

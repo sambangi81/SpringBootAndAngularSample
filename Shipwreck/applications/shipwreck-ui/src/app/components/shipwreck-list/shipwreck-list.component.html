@@ -33,7 +33,7 @@
         {{shipwreck.yearDiscovered}}
       </td>
       <td>
-        <a class="btn btn-primary" [routerLink]="['/shipwreck-list/shipwreck-view/', shipwreck.id]">View</a>
+        <a class="btn btn-primary" [routerLink]="['/shipwreck-list/shipwreck-edit/', shipwreck.id]">Edit</a>
         <a class="btn btn-danger" (click)="deleteShipwreck(shipwreck.id)" [routerLink]="['/shipwreck-list']">Delete</a>
       </td>
     </tr>
