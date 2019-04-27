@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute} from '@angular/router';
 import {ShipwreckService} from '../../services/shipwreck.service';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {getQueryValue} from '@angular/core/src/view/query';
+
 
 
 @Component({

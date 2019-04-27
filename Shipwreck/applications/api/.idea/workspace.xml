@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e35e35-99a2-4427-9950-5e9514fc936f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-create/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shipwreck-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../shipwreck-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shipwreck-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../shipwreck-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-create/shipwreck-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-create/shipwreck-create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-create/shipwreck-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-create/shipwreck-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-list/shipwreck-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-list/shipwreck-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-edit/shipwreck-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../shipwreck-ui/src/app/components/shipwreck-edit/shipwreck-edit.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -121,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1260" />
@@ -197,15 +191,15 @@
       <workItem from="1555694657327" duration="4038000" />
       <workItem from="1556116859297" duration="6263000" />
       <workItem from="1556218525778" duration="3370000" />
-      <workItem from="1556290192371" duration="5468000" />
+      <workItem from="1556290192371" duration="5525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21352000" />
+    <option name="totallyTimeSpent" value="21409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1298" height="994" extended-state="6" />
+    <frame x="-9" y="-9" width="1298" height="994" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2749591" />
